@@ -49,6 +49,4 @@ def chranalyze(input_data):
 # input_data is declared using the input function. The user is prompted to enter data which will return as lowercase. 
 input_data = input("Please enter data \n").lower()
 
-
-if __name__ == '__main__':
-    chranalyze(input_data)
+chranalyze(input_data)
