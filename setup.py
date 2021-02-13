@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 
+"""
+Install icecream package. To install locally use:
+	pip install -e .
+"""
+
 from setuptools import setup
 
 setup(
-    name="chranalyzer",
+    name="icecream",
     version="0.0.1",
-    packages=[],
     entry_points={
-        'console_scripts': ['chranalyzer = chranalyze.__main__:main']
+        'console_scripts': ['howareyou = howareyou.__main__:run_program']
     }
 )
